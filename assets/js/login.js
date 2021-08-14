@@ -76,7 +76,8 @@ $(function() {
                 // console.log(res.token);
                 // 将登陆成功得到的 token 字符串，保存到本地存储中
                 localStorage.setItem('token', res.token)
-                    //跳转到后台主页
+                console.log(res.token);
+                //跳转到后台主页
                 location.href = '/index.html'
             }
         })
